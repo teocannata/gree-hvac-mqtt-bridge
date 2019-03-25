@@ -8,12 +8,12 @@
     "hassio_api": true,
     "hassio_role": "default",
     "options": {
-        "hvac_host": "192.168.1.255",
+        "hvac_host": "192.168.15.18",
         "mqtt": {
-            "broker_url": "mqtt://localhost",
+            "broker_url": "mqtt://192.168.15.223",
             "topic_prefix": "home/greehvac",
-            "username": "",
-            "password": ""
+            "username": "mqtt",
+            "password": "9GeUGehtWHeczrE5R3G2"
         }
     },
     "schema": {
