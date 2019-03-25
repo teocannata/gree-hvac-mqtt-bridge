@@ -87,19 +87,19 @@ module.exports = {
         }
     },
     // controls the swing mode of the horizontal air blades (not available on all units)
-    swingHor: {
-        code: 'SwingLfRig',
-        value: {
-            default: 0,
-            full: 1, // swing in full range
-            fixedLeft: 2, // fixed in leftmost position (1/5)
-            fixedMidLeft: 3, // fixed in middle-left postion (2/5)
-            fixedMid: 4, // fixed in middle position (3/5)
-            fixedMidRight: 5, // fixed in middle-right postion (4/5)
-            fixedRight: 6, // fixed in rightmost position (5/5)
-            full: 7 // swing in full range (seems to be same as full)
-        }
-    },
+    // swingHor: {
+    //     code: 'SwingLfRig',
+    //     value: {
+    //         default: 0,
+    //         full: 1, // swing in full range
+    //         fixedLeft: 2, // fixed in leftmost position (1/5)
+    //         fixedMidLeft: 3, // fixed in middle-left postion (2/5)
+    //         fixedMid: 4, // fixed in middle position (3/5)
+    //         fixedMidRight: 5, // fixed in middle-right postion (4/5)
+    //         fixedRight: 6, // fixed in rightmost position (5/5)
+    //         full: 7 // swing in full range (seems to be same as full)
+    //     }
+    // },
     // controls the swing mode of the vertical air blades
     swingVert: {
         code: 'SwUpDn',
